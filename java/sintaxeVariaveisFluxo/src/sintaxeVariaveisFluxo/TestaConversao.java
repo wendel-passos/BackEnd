@@ -20,7 +20,7 @@ public class TestaConversao {
 		System.out.println(valor);
 		
 		
-		int numero = 44004232646746465464440;
+		int numero = 044004232440;
 		long numeroGrande = 044004232440;
 		short numeroPequeno = 2131;
 		byte b = 127;
