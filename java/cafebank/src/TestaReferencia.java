@@ -1,5 +1,5 @@
 
-public class TesteReferencia {
+public class TestaReferencia {
 	
 	public static void main(String[] args) {
 		
