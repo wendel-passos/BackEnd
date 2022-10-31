@@ -17,6 +17,6 @@ public class TestaBanco {
 		System.out.println(contaDoWendel.titular.nome);
 		System.out.println(contaDoWendel.titular);
 		System.out.println(wendel);
-		System.out.println(contaDoWendel.saldo);
+		System.out.println(contaDoWendel.getSaldo());
 	}
 }

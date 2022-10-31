@@ -4,7 +4,7 @@ public class Conta {
 	// Em classes não é utilizado o main
 
 	// Atributos da classe
-	double saldo;
+	private double saldo;
 	int agencia;
 	int numero;
 	Cliente titular;
@@ -38,6 +38,11 @@ public class Conta {
 			
 			return false;
 		}
-	}	
+	}
+	
+	public double  getSaldo () {
+		return this.saldo;
+	}
+	
 
 }
