@@ -9,7 +9,7 @@ public class TesteGetSet {
 		conta.setNumero(23423);
 		System.out.println(conta.getNumero());
 		
-		
+		/*
 		Cliente wendel = new Cliente ();
 		wendel.setNome("Wendel Passos");
 		wendel.setProfissao("Atleta");
@@ -39,7 +39,7 @@ public class TesteGetSet {
 		conta2.setTitular(amanda);
 		//Nesse caso o atributo é alocado em outro endereço porque foi instanciado um novo cliente 
 		System.out.println("\n" + conta2.getTitular());
-		
+		*/
 	}	
 
 }

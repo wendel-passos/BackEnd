@@ -25,7 +25,9 @@ public class Conta {
 		
 	}
 	public Conta(int numero){
-		this (7770, numero);
+		agencia = 7770;
+		this.numero = numero;
+		
 		Conta.totalContasCriadas++; //Para o atributo da classe é utilizado o nome da classe no atributo
 		System.out.println("Total de contas criadas = "+Conta.totalContasCriadas);
 		if ( numero < 0) {
