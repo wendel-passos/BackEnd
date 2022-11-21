@@ -4,7 +4,7 @@ public class TesteFuncionario {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Funcionario wendel  = new Funcionario ();
+		Funcionario wendel  = new Gerente ();
 		wendel.setNome("Wendel Passos");
 		wendel.setCpf("12356745678");
 		wendel.setSalario(5000.50);

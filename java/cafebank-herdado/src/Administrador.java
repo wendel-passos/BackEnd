@@ -1,16 +1,16 @@
-//Gerente herdando métodos da classe Funcionario e é um autenticavel
-public class Gerente extends Funcionario implements Autenticavel{
+
+public class Administrador extends Funcionario implements Autenticavel {
 	
 	private Autenticacao autenticacao;
 	
-	public double getBonificacao() { 
-		System.out.println("Chamando bonificacao Gerente");
-		return  super.getSalario();
+	@Override
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return 50;
 	}
-
 	
-
-	public Gerente() {
+	
+	public Administrador() {
 		this.autenticacao = new Autenticacao();
 	}
 
@@ -25,4 +25,5 @@ public class Gerente extends Funcionario implements Autenticavel{
 		return this.autenticacao.autentica(senha);
 	}
 }
+
 

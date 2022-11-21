@@ -1,15 +1,12 @@
-
-public class Funcionario {
+//A partir do momento que uma classe é abstrata ela não pode mais ser instanciada
+public abstract class Funcionario { 
 	
 	private String nome;
 	private String cpf;
 	private double salario; //É possível utilizar o protected para deixar o atributo visível para os filhos 
-	
-	
-	public double getBonificacao() {
-		
-		return this.salario * 0.05;
-	}
+
+	//Método sem corpo, deve ser implementado nas classes filhas
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;

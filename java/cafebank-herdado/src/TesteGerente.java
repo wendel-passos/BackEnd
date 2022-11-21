@@ -3,6 +3,13 @@ public class TesteGerente {
 	
 	public static void main(String[] args) {
 		
+		//Instanciando por meio da interface autenticavel
+		Autenticavel referencia = new Administrador();
+		referencia.setSenha(222);
+		
+		SistemaInterno si = new SistemaInterno ();
+		si.autentica(referencia);
+		
 		Gerente gerente = new Gerente();
 		gerente.setNome("Serrano Finado");
 		gerente.setCpf("123456789");

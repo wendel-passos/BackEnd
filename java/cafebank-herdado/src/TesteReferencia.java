@@ -10,9 +10,6 @@ public class TesteReferencia {
 		gerente.setSalario(5000.00);
 		
 		
-		Funcionario funcionario = new Funcionario (); //Objeto com outro tipo de refência. Introdução ao Polimorfismo 
-		funcionario.setSalario(2000.00);
-		
 		Funcionario editorVideo = new EditorVideo(); 
 		editorVideo.setSalario(2500.00);
 		 
@@ -21,7 +18,6 @@ public class TesteReferencia {
 		
 		ControleBonificacao controle = new ControleBonificacao();  //Objeto com outro tipo de refência. Introdução ao Polimorfismo 
 		controle.registra(gerente);
-		controle.registra(funcionario);
 		controle.registra(editorVideo);
 		controle.registra(designer);
 		System.out.println(controle.getSoma());
