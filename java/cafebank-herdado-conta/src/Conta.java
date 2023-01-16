@@ -41,30 +41,17 @@ public abstract class Conta {
 	// Métodos da classe
 	public abstract  void depositar (double valor);
 	
-	public boolean saca (double valor) {
-		if (this.saldo >= valor && valor >= 0) {
-			
-			this.saldo -= valor;
-			return true;
-			
-		} else {
-			
-			return false;
-		}	
+	public void saca (double valor) throws SaldoInsuficienteException {
+		
+		if (this.saldo < valor ) {
+			throw new SaldoInsuficienteException ("Saldo: "+ this.saldo + " Valor: " + valor);
+		}
+		this.saldo -= valor;
 	}
 	
-	public boolean transferir (double valor, Conta destino) {
-		
-		if (this.saldo >= valor && valor > 0) {
-	
-			saca (valor); //Reutilização do método sacar
-			destino.depositar (valor); //Reutilização do método sacar
-			return true;
-			
-		} else {
-			
-			return false;
-		}
+	public void transferir (double valor, Conta destino) throws SaldoInsuficienteException{
+		this.saca(valor);
+		destino.depositar(valor);
 	}
 	
 	public double  getSaldo () {
