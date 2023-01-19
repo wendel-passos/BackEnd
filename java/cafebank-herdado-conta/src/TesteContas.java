@@ -2,22 +2,26 @@
 public class TesteContas {
 	
 	public static void main(String[] args) {
-				
-		ContaCorrente cc = new ContaCorrente (111,111);
-		cc.depositar(100.0);
 		
 		Conta cp = new ContaPoupanca (222,222);
 		cp.depositar(200.0);
 		
-		try {
-			cc.transferir(10, cp);
-		} catch (SaldoInsuficienteException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		try (ContaCorrente cc = new ContaCorrente (111,111)){
+			cc.depositar(100.0);
+			try {
+				cc.transferir(10, cp);
+				System.out.println(cc.getSaldo());
+			} catch (SaldoInsuficienteException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		} catch (IllegalArgumentException ex) {
+			System.out.println("Erro: O codigo da conta e/ou agencia nao podem ser negativos.");
+			
+		};
 		
-		System.out.println(cc.getSaldo());
 		System.out.println(cp.getSaldo());
+		
 		
 		
 	}
