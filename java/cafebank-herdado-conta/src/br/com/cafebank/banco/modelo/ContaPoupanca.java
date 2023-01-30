@@ -9,5 +9,14 @@ public class ContaPoupanca extends Conta {
 	public void depositar(double valor) {
 		 super.saldo += valor;
 	}
+	
+	//Sobrescrevendo o ToString para refinar para o projeto
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Conta Poupanca: "   + super.toString();
+	}
+
 
 }

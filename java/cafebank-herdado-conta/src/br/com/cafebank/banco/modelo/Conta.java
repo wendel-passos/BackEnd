@@ -121,5 +121,14 @@ public abstract class Conta implements AutoCloseable {
 	public static int getTotalContasCriadas() {
 		return totalContasCriadas;
 	}
+	
+	//Sobrescrevendo o ToString para refinar para o projeto
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "Numero: " + this.getNumero() + " Agencia: " + this.getAgencia();
+	}
+
 
 }
