@@ -29,6 +29,17 @@ public class Cliente {
 	public void setProfissao(String profissao) {
 		this.profissao = profissao;
 	}
+/**
+ * Customização do toString para cliente
+ */
+
+//	@Override
+//	public String toString() {
+//		// TODO Auto-generated method stub
+//
+//		return "Nome do cliente: " + this.getNome();
+//	}
+
 	
 	
 
