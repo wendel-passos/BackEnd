@@ -8,7 +8,10 @@ let string = 'NomePessoa';
 let numero = 10;
 let booleano = false;
 
-console.log ( 'string: ' + string+  ' | numero: '+ numero + ' | booleano: ' + booleano);
+// console.log ( 'string: ' + string+  '  | numero: '+ numero + ' | booleano: ' + booleano);
+console.log ( 'string: ' + string+  ' | tipo: ' + typeof string);
+console.log ( 'numero: ' + numero+  ' | tipo: ' + typeof numero);
+console.log ( 'booleano: ' + booleano+  ' | tipo: ' + typeof booleano);
 console.log ('=========================================');
 
 // Crie duas variáveis, uma contendo seu primeiro nome e outra contendo seu último nome. 
