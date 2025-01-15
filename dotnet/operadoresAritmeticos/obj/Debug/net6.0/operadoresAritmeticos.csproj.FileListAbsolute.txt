@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\bin\Debug\net6.0\operadoresAritmeticos.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\bin\Debug\net6.0\operadoresAritmeticos.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\bin\Debug\net6.0\operadoresAritmeticos.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\bin\Debug\net6.0\operadoresAritmeticos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\bin\Debug\net6.0\operadoresAritmeticos.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\refint\operadoresAritmeticos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\operadoresAritmeticos.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\operadoresAritmeticos\obj\Debug\net6.0\ref\operadoresAritmeticos.dll
