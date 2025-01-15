@@ -49,9 +49,6 @@ else
     Console.WriteLine ("Quantidade indisponível");
 }
 
-
-//--------Exemplo case------------------
-
 Console.WriteLine ("Digite uma letra");
 string letra = Console.ReadLine();
 
@@ -68,9 +65,55 @@ else
     Console.WriteLine ("Não é uma vogal");
 }
 
+//--------Exemplo case------------------
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine ("Vogal");
+        break;
+
+    default:
+        Console.WriteLine ("Não é uma vogal");
+        break;
+}
 
 
+//-----------------Exemplo com operador OR ---------------------
 
+bool maiorDeIdade = true;
+bool possuiAutorizacao = false;
 
+if (maiorDeIdade || possuiAutorizacao)
+{
+    Console.WriteLine ("Entrada autorizada");
+}
+else 
+{
+    Console.WriteLine ("Entrada não autorizada");
+}
 
+//-----------------Exemplo com operador AND ---------------------
 
+if (maiorDeIdade && possuiAutorizacao)
+{
+    Console.WriteLine ("Entrada autorizada");
+}
+else 
+{
+    Console.WriteLine ("Entrada não autorizada");
+}
+
+//-----------------Exemplo com operador NOT ---------------------
+
+if (maiorDeIdade && !possuiAutorizacao)
+{
+    Console.WriteLine ("Entrada autorizada");
+}
+else 
+{
+    Console.WriteLine ("Entrada não autorizada");
+}
