@@ -1,0 +1,4 @@
+[*.cs]
+
+# CS8600: Conversão de literal nula ou possível valor nulo em tipo não anulável.
+dotnet_diagnostic.CS8600.severity = warning

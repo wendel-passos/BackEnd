@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\bin\Debug\net6.0\estruturaDeRepeticao.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\bin\Debug\net6.0\estruturaDeRepeticao.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\bin\Debug\net6.0\estruturaDeRepeticao.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\bin\Debug\net6.0\estruturaDeRepeticao.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\bin\Debug\net6.0\estruturaDeRepeticao.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\refint\estruturaDeRepeticao.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\estruturaDeRepeticao.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\estruturaDeRepeticao\obj\Debug\net6.0\ref\estruturaDeRepeticao.dll
