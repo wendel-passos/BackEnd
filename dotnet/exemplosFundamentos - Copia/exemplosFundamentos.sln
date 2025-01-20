@@ -2,7 +2,7 @@
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplosFundamentos", "ExemplosFundamentos\exemplosFundamentos.csproj", "{1C16099A-FC0C-A3E0-D4A7-C83521FA2A44}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemplosFundamentos", "exemplosFundamentos.csproj", "{1C16099A-FC0C-A3E0-D4A7-C83521FA2A44}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemplosFundamentosClass.Common", "ExemplosFundamentosClass.Common\ExemplosFundamentosClass.Common.csproj", "{7BA08333-328E-473B-860D-A86DD201FE5E}"
 EndProject
