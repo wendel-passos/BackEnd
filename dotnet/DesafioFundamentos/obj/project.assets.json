@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programas\\Mega\\Nuvem\\Cursos\\Programacao\\Git_Github\\Repositórios\\BackEnd\\dotnet\\ProjetoSistemaEstacionamento\\DesafioFundamentos\\DesafioFundamentos.csproj",
+      "projectUniqueName": "D:\\Programas\\Mega\\Nuvem\\Cursos\\Programacao\\Git_Github\\Repositórios\\BackEnd\\dotnet\\DesafioFundamentos\\DesafioFundamentos.csproj",
       "projectName": "DesafioFundamentos",
-      "projectPath": "D:\\Programas\\Mega\\Nuvem\\Cursos\\Programacao\\Git_Github\\Repositórios\\BackEnd\\dotnet\\ProjetoSistemaEstacionamento\\DesafioFundamentos\\DesafioFundamentos.csproj",
+      "projectPath": "D:\\Programas\\Mega\\Nuvem\\Cursos\\Programacao\\Git_Github\\Repositórios\\BackEnd\\dotnet\\DesafioFundamentos\\DesafioFundamentos.csproj",
       "packagesPath": "C:\\Users\\WPassos\\.nuget\\packages\\",
-      "outputPath": "D:\\Programas\\Mega\\Nuvem\\Cursos\\Programacao\\Git_Github\\Repositórios\\BackEnd\\dotnet\\ProjetoSistemaEstacionamento\\DesafioFundamentos\\obj\\",
+      "outputPath": "D:\\Programas\\Mega\\Nuvem\\Cursos\\Programacao\\Git_Github\\Repositórios\\BackEnd\\dotnet\\DesafioFundamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\WPassos\\AppData\\Roaming\\NuGet\\NuGet.Config"
