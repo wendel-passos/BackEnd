@@ -5,9 +5,15 @@ using System.Threading.Tasks;
 
 namespace ArrayExemplos.Models
 {
+    /// <summary>
+    /// Classe de lista de String
+    /// </summary>
     public class Listas
     {
-        
+        /// <summary>
+        ///  Faz a montagem da lista
+        /// </summary>
+
         public void ListaString ()
         {
             List<string> listaString = new ();

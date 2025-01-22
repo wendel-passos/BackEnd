@@ -7,6 +7,11 @@ namespace operadoresAritmeticos.Models
 {
     public class Calculadora
     {
+        /// <summary>
+        /// Realiza a soma de dois números
+        /// </summary>
+        /// <param name="x">Um número inteiro para somar</param>
+        /// <param name="y">Segundo número inteiro para somar</param>
         public void Somar (int x, int y)
         {
             Console.WriteLine ($"{x} + {y} = {x + y}");

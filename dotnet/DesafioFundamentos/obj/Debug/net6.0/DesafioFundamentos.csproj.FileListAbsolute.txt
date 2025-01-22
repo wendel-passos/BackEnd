@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\bin\Debug\net6.0\DesafioFundamentos.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\bin\Debug\net6.0\DesafioFundamentos.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\bin\Debug\net6.0\DesafioFundamentos.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\bin\Debug\net6.0\DesafioFundamentos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\bin\Debug\net6.0\DesafioFundamentos.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\refint\DesafioFundamentos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\DesafioFundamentos.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\ProjetoSistemaEstacionamento\DesafioFundamentos\obj\Debug\net6.0\ref\DesafioFundamentos.dll
