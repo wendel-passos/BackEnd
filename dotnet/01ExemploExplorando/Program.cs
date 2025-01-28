@@ -37,3 +37,34 @@ exemploPilha.PilhaDeInteiro();
 
 ExemploDictionary exemploDictionary = new();
 exemploDictionary.DictionaryDeString();
+
+ExemploDeTupla exemploDeTupla = new();
+exemploDeTupla.TuplaNaVariavel();
+exemploDeTupla.TuplaChamandoClasse();
+exemploDeTupla.TuplaNaVariavelDeInicializacao();
+
+LeituraArquivo arquivo2 = new();
+
+var (sucesso, linhasArquivo, _) = arquivo2.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if (sucesso)
+{
+    //Console.WriteLine($"Quantidade linhas do arquivo:{quantidadelinhas}");
+    foreach (string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);  
+    }
+}
+else
+{
+    Console.WriteLine("Não foi possível ler o arquivo");
+}
+
+Pessoa p5 = new (nome: "Wendel", sobrenome: "Passos", idade: 27);
+
+(string nome, string sobrenome) = p5;
+
+Console.WriteLine($"{nome} {sobrenome}");
+
+ExemploIfTernario exemploIfTernario = new();
+exemploIfTernario.Ternario();
