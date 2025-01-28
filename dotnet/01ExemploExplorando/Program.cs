@@ -22,3 +22,18 @@ formatacao.Porcentagem(valor: .494);
 formatacao.ConcatenacaoPersonalizada(valor: 13345678);
 formatacao.FormatacaoData();
 formatacao.FormatacaoDataValidada("2022-12-17 18:00");
+
+Arquivos arquivo = new();
+arquivo.LeituraDeArquivos();
+
+ExemploExcecao exemploExcecao = new();
+exemploExcecao.Metodo1();
+
+ExemploFila exemploFila = new();
+exemploFila.FilaDeInteiros();
+
+ExemploPilha exemploPilha = new();
+exemploPilha.PilhaDeInteiro();
+
+ExemploDictionary exemploDictionary = new();
+exemploDictionary.DictionaryDeString();
