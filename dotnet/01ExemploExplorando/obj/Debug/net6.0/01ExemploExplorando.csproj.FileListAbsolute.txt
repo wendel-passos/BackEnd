@@ -13,3 +13,5 @@ D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotn
 D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\01ExemploExplorando\obj\Debug\net6.0\01ExemploExplorando.pdb
 D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\01ExemploExplorando\obj\Debug\net6.0\01ExemploExplorando.genruntimeconfig.cache
 D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\01ExemploExplorando\obj\Debug\net6.0\ref\01ExemploExplorando.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\01ExemploExplorando\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\01ExemploExplorando\obj\Debug\net6.0\01ExemploExplorando.csproj.CopyComplete

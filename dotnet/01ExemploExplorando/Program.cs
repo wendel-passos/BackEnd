@@ -1,4 +1,5 @@
 ﻿using _01ExemploExplorando.Models;
+using Newtonsoft.Json;
 
 
 Pessoa pessoa1 = new (nome: "Wendel", sobrenome: "Passos", idade: 27);
@@ -68,3 +69,24 @@ Console.WriteLine($"{nome} {sobrenome}");
 
 ExemploIfTernario exemploIfTernario = new();
 exemploIfTernario.Ternario();
+DateTime dataAtual = DateTime.Now;
+List<Venda> listaVendas = new();
+Venda venda1 = new(1, "Material de escritorio", 25.00M,dataAtual);
+Venda venda2 = new(2, "Material de contrucao", 200.00M, dataAtual);
+
+listaVendas.Add(venda1);
+listaVendas.Add(venda2);
+string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+File.WriteAllText("Arquivos/vendas.json", serializado);
+
+Console.WriteLine(serializado);
+
+
+string conteudoArquivo = File.ReadAllText("Arquivos/vendas.json");
+List<VendaImportacao> listaVenda = JsonConvert.DeserializeObject<List<VendaImportacao>>(conteudoArquivo);
+
+foreach (VendaImportacao venda in listaVenda)
+{
+    Console.WriteLine($"ID: {venda.Id}; Produto:{venda.Produto}; Preco:{venda.Preco}; Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+}
