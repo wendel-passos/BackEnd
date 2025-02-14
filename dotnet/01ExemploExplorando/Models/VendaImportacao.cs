@@ -12,12 +12,14 @@ namespace _01ExemploExplorando.Models
         [JsonProperty("Nome_Produto")]
         public string Produto { get; set; }
         public decimal Preco { get; set; }
+        public decimal? Desconto { get; set; }
         public DateTime DataVenda { get; set; }
-        public VendaImportacao (int id, string produto, decimal preco, DateTime dataVenda)
+        public VendaImportacao(int id, string produto, decimal preco, decimal? desconto, DateTime dataVenda)
         {
             Id = id;
             Produto = produto;
             Preco = preco;
+            Desconto = desconto;
             DataVenda = dataVenda;
         }
 

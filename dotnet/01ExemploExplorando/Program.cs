@@ -88,5 +88,32 @@ List<VendaImportacao> listaVenda = JsonConvert.DeserializeObject<List<VendaImpor
 
 foreach (VendaImportacao venda in listaVenda)
 {
-    Console.WriteLine($"ID: {venda.Id}; Produto:{venda.Produto}; Preco:{venda.Preco}; Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")}");
+    Console.WriteLine($"ID: {venda.Id}; Produto:{venda.Produto}; Preco:{venda.Preco}; " + 
+                      $"{(venda.Desconto.HasValue ? $"Desconto de:{venda.Desconto}" : "") };Data: {venda.DataVenda.ToString("dd/MM/yyyy HH:mm")})");
 }
+
+var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco });
+
+foreach (var venda in listaAnonimo)
+{
+    Console.WriteLine($"Produto: {venda.Produto}, Preço: {venda.Preco}");
+}
+
+Email email = new();
+email.ReceberEmail();
+
+TiposAnonimos tp = new();
+tp.ExemplosAnonimo();
+
+ExemploArrayGenerico<int> arrayInteiro = new();
+
+arrayInteiro.AdicionarElementoArray(30);
+Console.WriteLine(arrayInteiro[0]);
+
+int numero =  2;
+bool par = false;
+
+par = numero.EhPar();
+
+string mensagem = ($"O número {numero} é {(par ? "par" : "impar")}");
+Console.WriteLine(mensagem);
