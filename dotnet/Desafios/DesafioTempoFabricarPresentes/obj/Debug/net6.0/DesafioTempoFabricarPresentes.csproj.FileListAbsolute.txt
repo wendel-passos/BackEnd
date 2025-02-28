@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\bin\Debug\net6.0\DesafioTempoFabricarPresentes.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\bin\Debug\net6.0\DesafioTempoFabricarPresentes.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\bin\Debug\net6.0\DesafioTempoFabricarPresentes.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\bin\Debug\net6.0\DesafioTempoFabricarPresentes.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\bin\Debug\net6.0\DesafioTempoFabricarPresentes.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\refint\DesafioTempoFabricarPresentes.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\DesafioTempoFabricarPresentes.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTempoFabricarPresentes\obj\Debug\net6.0\ref\DesafioTempoFabricarPresentes.dll

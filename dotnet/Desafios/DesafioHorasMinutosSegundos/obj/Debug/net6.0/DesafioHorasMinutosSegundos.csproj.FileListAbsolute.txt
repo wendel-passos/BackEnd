@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\bin\Debug\net6.0\DesafioHorasMinutosSegundos.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\bin\Debug\net6.0\DesafioHorasMinutosSegundos.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\bin\Debug\net6.0\DesafioHorasMinutosSegundos.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\bin\Debug\net6.0\DesafioHorasMinutosSegundos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\bin\Debug\net6.0\DesafioHorasMinutosSegundos.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\refint\DesafioHorasMinutosSegundos.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\DesafioHorasMinutosSegundos.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioHorasMinutosSegundos\obj\Debug\net6.0\ref\DesafioHorasMinutosSegundos.dll

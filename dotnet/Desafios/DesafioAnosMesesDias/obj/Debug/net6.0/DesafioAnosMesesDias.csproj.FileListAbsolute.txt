@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\bin\Debug\net6.0\DesafioAnosMesesDias.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\bin\Debug\net6.0\DesafioAnosMesesDias.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\bin\Debug\net6.0\DesafioAnosMesesDias.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\bin\Debug\net6.0\DesafioAnosMesesDias.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\bin\Debug\net6.0\DesafioAnosMesesDias.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\refint\DesafioAnosMesesDias.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\DesafioAnosMesesDias.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioAnosMesesDias\obj\Debug\net6.0\ref\DesafioAnosMesesDias.dll

@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\bin\Debug\net6.0\02ExemploPOO.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\bin\Debug\net6.0\02ExemploPOO.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\bin\Debug\net6.0\02ExemploPOO.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\bin\Debug\net6.0\02ExemploPOO.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\bin\Debug\net6.0\02ExemploPOO.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\refint\02ExemploPOO.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\02ExemploPOO.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\02ExemploPOO\obj\Debug\net6.0\ref\02ExemploPOO.dll
