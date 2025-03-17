@@ -10,6 +10,11 @@ namespace _02ExemploPOO.Models
     /// </summary>
     public class Aluno : Pessoa
     {
+
+        public Aluno(string nome) : base(nome)
+        {
+            
+        }
         public int Nota { get; set; }
         /// <summary>
         /// Método override da Classe Pessoa

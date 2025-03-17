@@ -7,7 +7,12 @@ namespace _02ExemploPOO.Models
 {
     public class Pessoa
     {
-        public string ?Nome { get; set; }
+
+        public Pessoa(string nome)
+        {
+        Nome = nome;
+        }
+        public string? Nome { get; set; }
         public int Idade { get; set; }
 
         /// <summary>

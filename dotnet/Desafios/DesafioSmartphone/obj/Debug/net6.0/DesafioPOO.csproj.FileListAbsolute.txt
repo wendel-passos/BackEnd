@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\bin\Debug\net6.0\DesafioPOO.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\bin\Debug\net6.0\DesafioPOO.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\bin\Debug\net6.0\DesafioPOO.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\bin\Debug\net6.0\DesafioPOO.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\bin\Debug\net6.0\DesafioPOO.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.csproj.AssemblyReference.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\refint\DesafioPOO.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\DesafioPOO.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioSmartphone\obj\Debug\net6.0\ref\DesafioPOO.dll
