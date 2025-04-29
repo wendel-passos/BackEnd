@@ -1,0 +1,79 @@
+@model _05ExemploMvcPratico.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Detalhes da Tarefa";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1">
+                <i class="bi bi-info-circle text-primary me-2"></i>Detalhes da Tarefa
+            </h2>
+            <p class="text-muted mb-0">Veja as informações completas da sua atividade</p>
+        </div>
+        <a asp-action="Index" class="btn btn-dark btn-lg rounded-3 px-4">
+            <i class="bi bi-arrow-left me-2"></i>Voltar
+        </a>
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+        <div class="card-body p-4">
+            <dl class="row mb-0">
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Titulo)
+                </dt>
+                <dd class="col-sm-9 fw-medium">
+                    @Html.DisplayFor(x => x.Titulo)
+                </dd>
+
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Descricao)
+                </dt>
+                <dd class="col-sm-9 fw-medium">
+                    @Html.DisplayFor(x => x.Descricao)
+                </dd>
+
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Data)
+                </dt>
+                <dd class="col-sm-9">
+                    <span class="badge bg-light text-dark border">
+                        @Html.DisplayFor(x => x.Data)
+                    </span>
+                </dd>
+
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Status)
+                </dt>
+                <dd class="col-sm-9">
+                    @if (Model.Status)
+                    {
+                        <span class="badge bg-success">Concluída</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-warning text-dark">Pendente</span>
+                    }
+                </dd>
+            </dl>
+
+            <div class="mt-4 d-flex gap-2">
+                <a asp-action="Editar" asp-route-id="@Model.Id" class="btn btn-primary rounded-3 px-4">
+                    <i class="bi bi-pencil me-2"></i>Editar
+                </a>
+                <a asp-action="Index" class="btn btn-secondary rounded-3 px-4">
+                    <i class="bi bi-arrow-left me-2"></i>Voltar
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .badge.border {
+            border: 1px solid #dee2e6 !important;
+        }
+    </style>
+}

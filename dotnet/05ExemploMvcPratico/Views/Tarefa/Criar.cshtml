@@ -1,0 +1,64 @@
+@model _05ExemploMvcPratico.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Criar Nova Tarefa";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1">
+                <i class="bi bi-plus-circle text-primary me-2"></i>Criar Nova Tarefa
+            </h2>
+            <p class="text-muted mb-0">Preencha os dados abaixo para adicionar uma nova atividade</p>
+        </div>
+        <a asp-action="Index" class="btn btn-dark btn-lg rounded-3 px-4">
+            <i class="bi bi-arrow-left me-2"></i>Voltar
+        </a>
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+        <div class="card-body p-4">
+            <form asp-action="Criar">
+                <div class="mb-3">
+                    <label asp-for="Titulo" class="form-label fw-semibold text-secondary"></label>
+                    <input asp-for="Titulo" class="form-control rounded-3" />
+                    <span asp-validation-for="Titulo" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Descricao" class="form-label fw-semibold text-secondary"></label>
+                    <input asp-for="Descricao" class="form-control rounded-3" />
+                    <span asp-validation-for="Descricao" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Data" class="form-label fw-semibold text-secondary"></label>
+                    <input asp-for="Data" class="form-control rounded-3" type="date" />
+                    <span asp-validation-for="Data" class="text-danger small"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Status" class="form-label fw-semibold text-secondary"></label>
+                    <select asp-for="Status" asp-items="ViewBag.Statuses" class="form-select rounded-3">
+                        <option value="">-- Selecione o status --</option>
+                    </select>
+                    <span asp-validation-for="Status" class="text-danger small"></span>
+                </div>
+
+                <div class="d-flex gap-2 mt-4">
+                    <button type="submit" class="btn btn-primary rounded-3 px-4">
+                        <i class="bi bi-plus-lg me-2"></i>Criar
+                    </button>
+                    <a asp-action="Index" class="btn btn-secondary rounded-3 px-4">
+                        <i class="bi bi-arrow-left me-2"></i>Voltar
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,85 @@
+@model _05ExemploMvcPratico.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Deletar Tarefa";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1 text-danger">
+                <i class="bi bi-exclamation-triangle-fill me-2"></i>Confirmação de Exclusão
+            </h2>
+            <p class="text-muted mb-0">Tem certeza que deseja excluir esta tarefa? Esta ação não poderá ser desfeita.</p>
+        </div>
+        <a asp-action="Index" class="btn btn-dark btn-lg rounded-3 px-4">
+            <i class="bi bi-arrow-left me-2"></i>Voltar
+        </a>
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+        <div class="card-body p-4">
+            <dl class="row mb-0">
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Titulo)
+                </dt>
+                <dd class="col-sm-9 fw-medium">
+                    @Html.DisplayFor(x => x.Titulo)
+                </dd>
+
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Descricao)
+                </dt>
+                <dd class="col-sm-9 fw-medium">
+                    @Html.DisplayFor(x => x.Descricao)
+                </dd>
+
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Data)
+                </dt>
+                <dd class="col-sm-9">
+                    <span class="badge bg-light text-dark border">
+                        @Model.Data.ToString("dd/MM/yyyy")
+                    </span>
+                </dd>
+                <dt class="col-sm-3 text-secondary text-uppercase small">
+                    @Html.DisplayNameFor(x => x.Status)
+                </dt>
+                <dd class="col-sm-9">
+                    @switch(Model.Status)
+                    {
+                        case _05ExemploMvcPratico.Models.StatusTarefa.Concluida:
+                            <span class="badge bg-success">Concluída</span>
+                            break;
+                        case _05ExemploMvcPratico.Models.StatusTarefa.EmAndamento:
+                            <span class="badge bg-primary text-dark">Em Andamento</span>
+                            break;
+                        case _05ExemploMvcPratico.Models.StatusTarefa.Pendente:
+                            <span class="badge bg-warning text-dark">Pendente</span>
+                            break;
+                        default:
+                            <span class="badge bg-secondary">Desconhecido</span>
+                            break;
+                    }
+                </dd>
+            </dl>
+
+            <form asp-action="Deletar" class="mt-4 d-flex gap-2">
+                <button type="submit" class="btn btn-danger rounded-3 px-4">
+                    <i class="bi bi-trash-fill me-2"></i>Deletar
+                </button>
+                <a asp-action="Index" class="btn btn-secondary rounded-3 px-4">
+                    <i class="bi bi-arrow-left me-2"></i>Voltar
+                </a>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        .badge.border {
+            border: 1px solid #dee2e6 !important;
+        }
+    </style>
+}
