@@ -1,0 +1,109 @@
+@model IEnumerable<_07ExemploProjetoRH.Models.FuncionarioLog>
+
+@{
+    ViewData["Title"] = "Logs de Funcionários";
+}
+
+<div class="container mt-4">
+    <form asp-action="Index" method="get" class="row mb-3">
+        <div class="col-md-4">
+            <input type="text" name="searchNome" value="@ViewData["CurrentFilterNome"]" class="form-control" placeholder="Buscar por Nome" />
+        </div>
+        <div class="col-md-4">
+            <input type="text" name="searchDepartamento" value="@ViewData["CurrentFilterDepartamento"]" class="form-control" placeholder="Buscar por Departamento" />
+        </div>
+        <div class="col-md-4">
+            @Html.DropDownList("searchTipoAcao", 
+                new SelectList(new[] { "", "Create", "Edit", "Delete" }, 
+                ViewData["CurrentFilterTipoAcao"]?.ToString()), 
+                "-- Tipo de Ação --", 
+                new { @class = "form-select" })
+        </div>
+        <div class="col-md-12 mt-2 d-flex justify-content-end">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+            <a asp-action="Index" class="btn btn-secondary">Limpar</a>
+        </div>
+    </form>
+
+
+
+    @if (!Model.Any())
+    {
+        <div class="card border-0 shadow-sm rounded-4 p-5 text-center">
+            <i class="bi bi-clock-history text-muted fs-1 mb-3"></i>
+            <h4 class="text-muted">Nenhum log encontrado</h4>
+            <p class="text-muted">Ainda não há registros de ações realizadas em funcionários.</p>
+        </div>
+    }
+    else
+    {
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="card-body p-0">
+                <div class="table-responsive shadow rounded">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="bg-light">
+                            <tr>
+                                <th>Nome</th>
+                                <th>Departamento</th>
+                                <th>Salário</th>
+                                <th>Tipo de Ação</th>
+                                <th>Data e Hora</th>
+                                <th class="text-center">Ação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="text-nowrap">@item.Nome</td>
+                                    <td class="text-nowrap">@item.Departamento</td>
+                                    <td>@item.Salario.ToString("C")</td>
+                                    <td>@item.TipoAcao</td>
+                                    <td>@item.Timestamp?.ToString("g")</td>
+                                    <td class="text-end pe-4">
+                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary rounded-3 px-3" data-bs-toggle="tooltip" title="Ver detalhes">
+                                            Detalhes <i class="bi bi-info-circle ms-1"></i>
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Styles {
+    <style>
+        .table-hover tbody tr {
+            transition: all 0.2s ease;
+        }
+
+        .table-hover tbody tr:hover {
+            background-color: rgba(0, 0, 0, 0.02) !important;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .btn i {
+            margin-left: 0.4rem;
+        }
+
+        .card.text-center i.bi-clock-history {
+            font-size: 3rem;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,123 @@
+@model IEnumerable<_07ExemploProjetoRH.Models.Funcionario>
+
+@{
+    ViewData["Title"] = "Funcionários";
+}
+
+<div class="container mt-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="fw-bold">Lista de Funcionários</h1>
+        <a asp-action="Create" class="btn btn-primary">
+            <i class="fas fa-plus"></i> Novo Funcionário
+        </a>
+    </div>
+
+    @if (!Model.Any())
+    {
+        <div class="card border-0 shadow-sm rounded-4 p-5 text-center">
+            <i class="bi bi-inbox text-muted fs-1 mb-3"></i>
+            <h4 class="text-muted">Nenhum funcionário encontrado</h4>
+            <p class="text-muted mb-4">Clique abaixo para adicionar o primeiro funcionário.</p>
+            <a asp-action="Create" class="btn btn-primary rounded-3 px-4">
+                <i class="bi bi-plus-lg me-2"></i>Adicionar Funcionário
+            </a>
+        </div>
+    }
+    else
+    {
+        <form asp-action="Index" method="get" class="row g-3 mb-4">
+            <div class="col-md-4">
+                <input type="text" name="searchNome" value="@ViewData["CurrentFilterNome"]" class="form-control" placeholder="Buscar por Nome">
+            </div>
+            <div class="col-md-4">
+                <input type="text" name="searchDepartamento" value="@ViewData["CurrentFilterDepartamento"]" class="form-control" placeholder="Buscar por Departamento">
+            </div>
+            <div class="col-md-4">
+                <input type="date" name="searchAdmissao" value="@ViewData["CurrentFilterAdmissao"]" class="form-control">
+            </div>
+            <div class="col-md-12 d-flex justify-content-end">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-search"></i> Buscar
+                </button>
+            </div>
+        </form>
+
+        <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
+            <div class="card-body p-0">
+                <div class="table-responsive shadow rounded">
+                    <table class="table table-hover align-middle mb-0">
+                        <thead class="bg-light">
+                            <tr>
+                                <th>NOME</th>
+                                <th>ENDEREÇO</th>
+                                <th>RAMAL</th>
+                                <th>E-MAIL</th>
+                                <th>DEPARTAMENTO</th>
+                                <th>SALÁRIO</th>
+                                <th>ADMISSÃO</th>
+                                <th>AÇÃO</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="text-nowrap">@Html.DisplayFor(modelItem => item.Nome)</td>
+                                    <td class="text-nowrap">@Html.DisplayFor(modelItem => item.Endereco)</td>
+                                    <td class="text-nowrap">@Html.DisplayFor(modelItem => item.Ramal)</td>
+                                    <td class="text-nowrap">@Html.DisplayFor(modelItem => item.EmailProfissional)</td>
+                                    <td class="text-nowrap">@Html.DisplayFor(modelItem => item.Departamento)</td>
+                                    <td class="text-nowrap">@item.Salario.ToString("C")</td>
+                                    <td class="text-nowrap">@item.DataAdmissao?.Date.ToShortDateString()</td>
+                                    <td class="pe-4 text-end">
+                                        <div class="d-flex justify-content-end gap-2">
+                                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary rounded-3 px-3" data-bs-toggle="tooltip" title="Editar">
+                                                Editar<i class="bi bi-pencil"></i>
+                                            </a>
+                                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary rounded-3 px-3" data-bs-toggle="tooltip" title="Detalhes">
+                                                Detalhes<i class="bi bi-info-circle"></i>
+                                            </a>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger rounded-3 px-3" data-bs-toggle="tooltip" title="Excluir">
+                                                Excluir<i class="bi bi-trash"></i>
+                                            </a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Styles {
+    <style>
+        .table-hover tbody tr {
+            transition: all 0.2s ease;
+        }
+        .table-hover tbody tr:hover {
+            background-color: rgba(0, 0, 0, 0.02) !important;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .btn i {
+            margin-left: 0.5rem;
+        }
+        .card.text-center i.bi-inbox {
+            font-size: 3rem;
+        }
+    </style>
+}
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
+                return new bootstrap.Tooltip(tooltipTriggerEl);
+            });
+        });
+    </script>
+}

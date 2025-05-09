@@ -1,0 +1,64 @@
+@model _07ExemploProjetoRH.Models.FuncionarioLog
+
+@{
+    ViewData["Title"] = "Detalhes do Log";
+}
+
+<div class="container mt-4">
+    <div class="card border-0 shadow-sm rounded-4">
+        <div class="card-body">
+            <h2 class="card-title fw-bold mb-4">
+                <i class="bi bi-info-circle me-2"></i>Detalhes do Log
+            </h2>
+            <dl class="row">
+                <dt class="col-sm-3">Nome</dt>
+                <dd class="col-sm-9">@Model.Nome</dd>
+
+                <dt class="col-sm-3">Endereço</dt>
+                <dd class="col-sm-9">@Model.Endereco</dd>
+
+                <dt class="col-sm-3">Ramal</dt>
+                <dd class="col-sm-9">@Model.Ramal</dd>
+
+                <dt class="col-sm-3">Email Profissional</dt>
+                <dd class="col-sm-9">@Model.EmailProfissional</dd>
+
+                <dt class="col-sm-3">Departamento</dt>
+                <dd class="col-sm-9">@Model.Departamento</dd>
+
+                <dt class="col-sm-3">Salário</dt>
+                <dd class="col-sm-9">@Model.Salario.ToString("C")</dd>
+
+                <dt class="col-sm-3">Data de Admissão</dt>
+                <dd class="col-sm-9">
+                    @(Model.DataAdmissao.HasValue ? Model.DataAdmissao.Value.DateTime.ToShortDateString() : "N/A")
+                </dd>
+
+                <dt class="col-sm-3">Tipo de Ação</dt>
+                <dd class="col-sm-9">@Model.TipoAcao</dd>
+
+                <dt class="col-sm-3">Data e Hora</dt>
+                <dd class="col-sm-9">@Model.Timestamp?.ToString("g")</dd>
+
+                <dt class="col-sm-3">JSON</dt>
+                <dd class="col-sm-9">
+                    <pre class="bg-light p-3 rounded">@Model.JSON</pre>
+                </dd>
+            </dl>
+            <div class="mt-4">
+                <a asp-action="Index" class="btn btn-outline-secondary rounded-3 px-4">
+                    <i class="bi bi-arrow-left-circle me-2"></i>Voltar à lista
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Styles {
+    <style>
+        pre {
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+    </style>
+}

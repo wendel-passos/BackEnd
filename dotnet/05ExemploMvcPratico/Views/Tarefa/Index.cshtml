@@ -1,63 +1,21 @@
-@model IEnumerable<_05ExemploMvcPratico.Models.Tarefa>
+@model IEnumerable<_07ExemploProjetoRH.Models.Funcionario>
 
 @{
-    ViewData["Title"] = "Gerenciamento de Tarefas";
+    ViewData["Title"] = "Gerenciamento de Funcionários";
 }
 
-  <div class="container mt-5">
-      <div class="d-flex justify-content-between align-items-center mb-4">
-          <div>
-              <h2 class="fw-bold mb-1">
-                  <i class="bi bi-card-checklist text-primary me-2"></i>Minhas Tarefas
-              </h2>
-              <p class="text-muted mb-0">Gerencie suas atividades diárias</p>
-          </div>
-          <a asp-action="Criar" class="btn btn-primary btn-lg rounded-3 px-4">
-              <i class="bi bi-plus-lg me-2"></i>Nova Tarefa
-          </a>
-      </div>
-      <div class="w-50"></div>
-      <div class="w-50"></div>
-        <form asp-action="Index" method="get">
-            <div class="d-flex gap-2">
-                <input type="text" name="filtro" class="form-control rounded-3" placeholder="Buscar tarefas..." value="@ViewData["Filtro"]" />
-                
-                <input type="date" name="dataFiltro" class="form-control rounded-3" value="@ViewData["DataFiltro"]" />
-
-                <select name="statusFiltro" class="form-control rounded-3">
-                    <option value="">Todos os Status</option>
-
-                    @if (ViewData["StatusFiltro"]?.ToString() == "Pendente")
-                    {
-                        <option value="Pendente" selected>Pendente</option>
-                    }
-                    else
-                    {
-                        <option value="Pendente">Pendente</option>
-                    }
-
-                    @if (ViewData["StatusFiltro"]?.ToString() == "EmAndamento")
-                    {
-                        <option value="EmAndamento" selected>Em Andamento</option>
-                    }
-                    else
-                    {
-                        <option value="EmAndamento">Em Andamento</option>
-                    }
-
-                    @if (ViewData["StatusFiltro"]?.ToString() == "Concluida")
-                    {
-                        <option value="Concluida" selected>Concluída</option>
-                    }
-                    else
-                    {
-                        <option value="Concluida">Concluída</option>
-                    }
-                </select>
-                <button type="submit" class="btn btn-primary rounded-3">Buscar</button>
-            </div>
-        </form>
-      <br>
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1">
+                <i class="bi bi-people-fill text-primary me-2"></i>Funcionários
+            </h2>
+            <p class="text-muted mb-0">Gerencie os colaboradores da empresa</p>
+        </div>
+        <a asp-action="Create" class="btn btn-primary btn-lg rounded-3 px-4">
+            <i class="bi bi-plus-lg me-2"></i>Novo Funcionário
+        </a>
+    </div>
 
     <div class="card border-0 shadow-sm rounded-4 overflow-hidden">
         <div class="card-body p-0">
@@ -65,11 +23,14 @@
                 <table class="table table-hover align-middle mb-0">
                     <thead class="bg-light">
                         <tr>
-                            <th class="ps-4 fw-semibold text-uppercase text-secondary" style="width: 25%">Título</th>
-                            <th class="fw-semibold text-uppercase text-secondary" style="width: 30%">Descrição</th>
-                            <th class="fw-semibold text-uppercase text-secondary" style="width: 15%">Data</th>
-                            <th class="text-center fw-semibold text-uppercase text-secondary" style="width: 10%">Status</th>
-                            <th class="pe-4 text-end fw-semibold text-uppercase text-secondary" style="width: 20%">Ações</th>
+                            <th class="ps-4 fw-semibold text-uppercase text-secondary">Nome</th>
+                            <th class="fw-semibold text-uppercase text-secondary">Endereço</th>
+                            <th class="fw-semibold text-uppercase text-secondary">Ramal</th>
+                            <th class="fw-semibold text-uppercase text-secondary">Email</th>
+                            <th class="fw-semibold text-uppercase text-secondary">Departamento</th>
+                            <th class="fw-semibold text-uppercase text-secondary">Salário</th>
+                            <th class="fw-semibold text-uppercase text-secondary">Admissão</th>
+                            <th class="pe-4 text-end fw-semibold text-uppercase text-secondary">Ações</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -77,43 +38,30 @@
                         {
                             @foreach (var item in Model)
                             {
-                                <tr class="@(item.Status == StatusTarefa.Concluida ? "bg-success bg-opacity-10" : (item.Status == StatusTarefa.EmAndamento ? "bg-info bg-opacity-10" : "bg-warning bg-opacity-10"))">
+                                <tr>
                                     <td class="ps-4">
-                                        <div class="d-flex align-items-center">
-                                            <i class="bi @(item.Status == StatusTarefa.Concluida ? "bi-check-circle-fill text-success" : (item.Status == StatusTarefa.EmAndamento ? "bi-hourglass-split text-info" : "bi-hourglass text-warning")) me-2 fs-5"></i>
-                                            <span class="fw-medium">@Html.DisplayFor(model => item.Titulo)</span>
-                                        </div>
+                                        <div class="fw-medium">@item.Nome</div>
                                     </td>
+                                    <td>@item.Endereco</td>
+                                    <td>@item.Ramal</td>
                                     <td>
-                                        <div class="text-truncate" style="max-width: 300px;" data-bs-toggle="tooltip" title="@item.Descricao">
-                                            @Html.DisplayFor(model => item.Descricao)
-                                        </div>
+                                        <a href="mailto:@item.EmailProfissional" class="text-decoration-none">
+                                            @item.EmailProfissional
+                                        </a>
                                     </td>
-                                    <td>
-                                        <span class="badge bg-light text-dark border">
-                                            @item.Data.ToString("dd/MM/yyyy")
-                                        </span>
-                                    </td>
-                                    <td class="text-center">
-                                        <span class="badge @(item.Status == StatusTarefa.Pendente ? "bg-warning" : (item.Status == StatusTarefa.EmAndamento ? "bg-info" : "bg-success"))">
-                                            @(item.Status == StatusTarefa.Pendente 
-                                                ? "Pendente" 
-                                                : item.Status == StatusTarefa.EmAndamento 
-                                                    ? "Em andamento" 
-                                                    : "Concluída")
-                                        </span>
-                                    </td>
-
+                                    <td>@item.Departamento</td>
+                                    <td>@item.Salario.ToString("C")</td>
+                                    <td>@item.DataAdmissao?.Date.ToShortDateString() ?? ""</td>
                                     <td class="pe-4 text-end">
                                         <div class="d-flex justify-content-end gap-2">
-                                            <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary rounded-3 px-3" data-bs-toggle="tooltip" title="Editar">
-                                                Editar<i class="bi bi-pencil"></i>
+                                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary rounded-3 px-3" data-bs-toggle="tooltip" title="Editar">
+                                                <i class="bi bi-pencil"></i>
                                             </a>
-                                            <a asp-action="Detalhes" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary rounded-3 px-3" data-bs-toggle="tooltip" title="Detalhes">
-                                                Detalhes<i class="bi bi-info-circle"></i>
+                                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-outline-secondary rounded-3 px-3" data-bs-toggle="tooltip" title="Detalhes">
+                                                <i class="bi bi-info-circle"></i>
                                             </a>
-                                            <a asp-action="Deletar" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger rounded-3 px-3" data-bs-toggle="tooltip" title="Excluir">
-                                                Excluir<i class="bi bi-trash"></i>
+                                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger rounded-3 px-3" data-bs-toggle="tooltip" title="Excluir">
+                                                <i class="bi bi-trash"></i>
                                             </a>
                                         </div>
                                     </td>
@@ -123,13 +71,13 @@
                         else
                         {
                             <tr>
-                                <td colspan="5" class="text-center py-5">
+                                <td colspan="8" class="text-center py-5">
                                     <div class="d-flex flex-column align-items-center justify-content-center">
                                         <i class="bi bi-inbox text-muted fs-1 mb-3"></i>
-                                        <h5 class="text-muted">Nenhuma tarefa encontrada</h5>
-                                        <p class="text-muted mb-4">Comece criando sua primeira tarefa</p>
-                                        <a asp-action="Criar" class="btn btn-primary rounded-3 px-4">
-                                            <i class="bi bi-plus-lg me-2"></i>Criar Tarefa
+                                        <h5 class="text-muted">Nenhum funcionário encontrado</h5>
+                                        <p class="text-muted mb-4">Comece cadastrando o primeiro funcionário</p>
+                                        <a asp-action="Create" class="btn btn-primary rounded-3 px-4">
+                                            <i class="bi bi-plus-lg me-2"></i>Cadastrar Funcionário
                                         </a>
                                     </div>
                                 </td>
@@ -144,11 +92,6 @@
 
 @section Styles {
     <style>
-        .status-toggle {
-            width: 2.5em;
-            height: 1.3em;
-            cursor: default;
-        }
         .table-hover tbody tr {
             transition: all 0.2s ease;
         }
@@ -157,22 +100,14 @@
             transform: translateY(-1px);
             box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
-        .form-switch .form-check-input:checked {
-            background-color: #198754;
-            border-color: #198754;
-        }
-        .badge.border {
-            border: 1px solid #dee2e6 !important;
-        }
     </style>
 }
 
 @section Scripts {
     <script>
-        // Inicializa tooltips
         document.addEventListener('DOMContentLoaded', function() {
             var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+            tooltipTriggerList.map(function (tooltipTriggerEl) {
                 return new bootstrap.Tooltip(tooltipTriggerEl)
             })
         });

@@ -1,0 +1,55 @@
+@model _07ExemploProjetoRH.Models.Funcionario
+
+@{
+    ViewData["Title"] = "Detalhes do Funcionário";
+}
+
+<div class="container mt-5">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1">
+                <i class="bi bi-info-circle-fill text-primary me-2"></i>Detalhes do Funcionário
+            </h2>
+            <p class="text-muted mb-0">Veja as informações completas do colaborador</p>
+        </div>
+        <a asp-action="Index" class="btn btn-secondary btn-lg rounded-3 px-4">
+            <i class="bi bi-arrow-left me-2"></i>Voltar
+        </a>
+    </div>
+
+    <div class="card border-0 shadow-sm rounded-4 p-4">
+        <dl class="row">
+            <dt class="col-sm-3">Nome</dt>
+            <dd class="col-sm-9">@Model.Nome</dd>
+
+            <dt class="col-sm-3">Endereço</dt>
+            <dd class="col-sm-9">@Model.Endereco</dd>
+
+            <dt class="col-sm-3">Ramal</dt>
+            <dd class="col-sm-9">@Model.Ramal</dd>
+
+            <dt class="col-sm-3">Email Profissional</dt>
+            <dd class="col-sm-9">
+                <a href="mailto:@Model.EmailProfissional">@Model.EmailProfissional</a>
+            </dd>
+
+            <dt class="col-sm-3">Departamento</dt>
+            <dd class="col-sm-9">@Model.Departamento</dd>
+
+            <dt class="col-sm-3">Salário</dt>
+            <dd class="col-sm-9">@Model.Salario.ToString("C")</dd>
+
+            <dt class="col-sm-3">Data de Admissão</dt>
+            <dd class="col-sm-9">@Model.DataAdmissao?.Date.ToShortDateString()</dd>
+        </dl>
+
+        <div class="mt-4">
+            <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary rounded-3 px-4 me-2">
+                <i class="bi bi-pencil me-2"></i>Editar
+            </a>
+            <a asp-action="Index" class="btn btn-secondary rounded-3 px-4">
+                <i class="bi bi-arrow-left me-2"></i>Voltar
+            </a>
+        </div>
+    </div>
+</div>
