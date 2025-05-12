@@ -14,15 +14,16 @@
         </div>
         <div class="col-md-4">
             @Html.DropDownList("searchTipoAcao", 
-                new SelectList(new[] { "", "Create", "Edit", "Delete" }, 
+                new SelectList(Enum.GetNames(typeof(_07ExemploProjetoRH.Models.TipoAcao)), 
                 ViewData["CurrentFilterTipoAcao"]?.ToString()), 
-                "-- Tipo de Ação --", 
+                "Tipo de Ação", 
                 new { @class = "form-select" })
         </div>
         <div class="col-md-12 mt-2 d-flex justify-content-end">
             <button type="submit" class="btn btn-primary">Buscar</button>
-            <a asp-action="Index" class="btn btn-secondary">Limpar</a>
+            <a asp-action="Index" class="btn btn-secondary ms-2">Limpar</a>
         </div>
+
     </form>
 
 
