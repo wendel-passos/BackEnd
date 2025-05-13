@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\bin\Debug\net6.0\TestesUnitarios.Desafio.Console.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\bin\Debug\net6.0\TestesUnitarios.Desafio.Console.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\bin\Debug\net6.0\TestesUnitarios.Desafio.Console.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\bin\Debug\net6.0\TestesUnitarios.Desafio.Console.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\bin\Debug\net6.0\TestesUnitarios.Desafio.Console.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.sourcelink.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\refint\TestesUnitarios.Desafio.Console.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\TestesUnitarios.Desafio.Console.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\Desafios\DesafioTestesUnitarios\TestesUnitarios.Desafio.Console\obj\Debug\net6.0\ref\TestesUnitarios.Desafio.Console.dll

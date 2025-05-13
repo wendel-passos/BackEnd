@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\bin\Debug\net8.0\Calculadora.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\bin\Debug\net8.0\Calculadora.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\bin\Debug\net8.0\Calculadora.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\bin\Debug\net8.0\Calculadora.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\bin\Debug\net8.0\Calculadora.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.sourcelink.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\refint\Calculadora.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\Calculadora.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\08ExemploTesteUnitario\Calculadora\obj\Debug\net8.0\ref\Calculadora.dll

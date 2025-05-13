@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "3iS5fka1fLs=",
+  "success": true,
+  "projectFilePath": "D:\\Programas\\Mega\\Nuvem\\Cursos\\Programacao\\Git_Github\\Repositórios\\BackEnd\\dotnet\\Desafios\\DesafioTestesUnitarios\\TestesUnitarios.Desafio.Console\\TestesUnitarios.Desafio.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\WPassos\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\WPassos\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\WPassos\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\WPassos\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
