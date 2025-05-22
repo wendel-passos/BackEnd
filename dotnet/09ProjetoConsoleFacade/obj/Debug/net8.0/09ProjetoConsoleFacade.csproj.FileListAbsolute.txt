@@ -1,0 +1,15 @@
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.AssemblyInfoInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.AssemblyInfo.cs
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.csproj.CoreCompileInputs.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.sourcelink.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\bin\Debug\net8.0\09ProjetoConsoleFacade.exe
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\bin\Debug\net8.0\09ProjetoConsoleFacade.deps.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\bin\Debug\net8.0\09ProjetoConsoleFacade.runtimeconfig.json
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\bin\Debug\net8.0\09ProjetoConsoleFacade.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\bin\Debug\net8.0\09ProjetoConsoleFacade.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\refint\09ProjetoConsoleFacade.dll
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.pdb
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\09ProjetoConsoleFacade.genruntimeconfig.cache
+D:\Programas\Mega\Nuvem\Cursos\Programacao\Git_Github\Repositórios\BackEnd\dotnet\09ProjetoConsoleFacade\obj\Debug\net8.0\ref\09ProjetoConsoleFacade.dll
