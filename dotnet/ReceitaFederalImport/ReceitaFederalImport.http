@@ -1,0 +1,6 @@
+@ReceitaFederalImport_HostAddress = http://localhost:5034
+
+GET {{ReceitaFederalImport_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

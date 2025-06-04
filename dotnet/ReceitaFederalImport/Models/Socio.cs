@@ -1,16 +1,18 @@
-var socio = new Socio
+namespace ReceitaFederalImport.Models
 {
-    CnpjBasico = fields[0],
-    IdentificadorSocio = fields[1],
-    NomeSocio = fields[2],
-    CnpjCpfSocio = fields[3],
-    QualificacaoSocio = fields[4],
-    DataEntradaSociedade = DateTime.TryParseExact(fields[5], "yyyyMMdd", null, System.Globalization.DateTimeStyles.None, out var dataEntrada)
-                            ? dataEntrada
-                            : null,
-    Pais = fields[6],
-    CpfRepresentanteLegal = fields[7],
-    NomeRepresentante = fields[8],
-    QualificacaoRepresentante = fields[9],
-    FaixaEtaria = fields[10]
-};
+    public class Socio
+    {
+        public int Id { get; set; }
+        public string? CnpjBasico { get; set; }
+        public string? IdentificadorSocio { get; set; }
+        public string? NomeSocio { get; set; }
+        public string? CnpjCpfSocio { get; set; }
+        public string? QualificacaoSocio { get; set; }
+        public DateTime? DataEntradaSociedade { get; set; }
+        public string? Pais { get; set; }
+        public string? CpfRepresentanteLegal { get; set; }
+        public string? NomeRepresentante { get; set; }
+        public string? QualificacaoRepresentante { get; set; }
+        public string? FaixaEtaria { get; set; }
+    }
+}
