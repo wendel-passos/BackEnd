@@ -1,2 +1,10 @@
 /java/programa/target/
 /java/sintaxeBasica/target/
+
+# Ignora TODOS os arquivos .zip e .csv em qualquer pasta
+**/*.zip
+**/*.csv
+
+# Opcional: Ignora pastas específicas (ex: Downloads e Dados)
+dotnet/ReceitaFederalDownloader/Downloads/
+python/BotBinanceSpotSol/Dados/
