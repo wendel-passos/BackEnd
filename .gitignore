@@ -8,3 +8,4 @@
 # Opcional: Ignora pastas específicas (ex: Downloads e Dados)
 dotnet/ReceitaFederalDownloader/Downloads/
 python/BotBinanceSpotSol/Dados/
+dotnet/DesignPatterns
