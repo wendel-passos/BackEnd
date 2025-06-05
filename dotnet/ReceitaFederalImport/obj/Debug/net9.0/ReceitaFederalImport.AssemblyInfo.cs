@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReceitaFederalImport")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab4082fc049bfa55312e8bb35da2782c41ddcb97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+912c3a4b68d5e2d2f8786484460b4b71a02cc85b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReceitaFederalImport")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReceitaFederalImport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
