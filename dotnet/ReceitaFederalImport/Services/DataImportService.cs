@@ -8,7 +8,7 @@ namespace ReceitaFederalImport.Services
     {
         private readonly ApplicationDbContext _context;
         private readonly ILogger<DataImportService> _logger;
-        private readonly string url = "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2023-05/soocios0.zip";
+        private readonly string url = "https://arquivos.receitafederal.gov.br/dados/cnpj/dados_abertos_cnpj/2023-05/Socios0.zip";
 
         public DataImportService(ApplicationDbContext context, ILogger<DataImportService> logger)
         {
@@ -21,7 +21,7 @@ namespace ReceitaFederalImport.Services
             var tempDir = Path.Combine(Path.GetTempPath(), "rfb_import");
             Directory.CreateDirectory(tempDir);
 
-            string zipPath = Path.Combine(tempDir, "soocios0.zip");
+            string zipPath = Path.Combine(tempDir, "socios0.zip");
 
             using (var client = new HttpClient())
             {
@@ -30,7 +30,7 @@ namespace ReceitaFederalImport.Services
             }
 
             ZipFile.ExtractToDirectory(zipPath, tempDir, true);
-            var txtFile = Directory.GetFiles(tempDir, "*.txt").FirstOrDefault();
+            var txtFile = Directory.GetFiles(tempDir, "*.SOCIOCSV").FirstOrDefault();
             if (txtFile == null) throw new FileNotFoundException("Arquivo TXT não encontrado após extração.");
 
             using var reader = new StreamReader(txtFile);
@@ -38,7 +38,11 @@ namespace ReceitaFederalImport.Services
             while (!reader.EndOfStream)
             {
                 var line = reader.ReadLine();
+                #pragma warning disable CS8602 // Dereference of a possibly null reference.
+
                 var fields = line.Split(';').Select(f => f.Trim('"')).ToArray();
+                #pragma warning restore CS8602 // Dereference of a possibly null reference.
+
 
                 if (fields.Length < 11) continue;
 
